@@ -27,12 +27,12 @@
 
 <form action="store" method="get">
     <div class="form-group">
-        <label for="webId">Nom d'usuari</label>
-        <input type="text" class="form-control" id="webId" name="webId">
+        <label for="userName">Nom d'usuari</label>
+        <input type="text" class="form-control" id="userName" name="userName">
     </div>
     <div class="form-group">
-        <label for="webUrl">Data de naixement</label>
-        <input type="date" class="form-control" id="webUrl" name="webUrl">
+        <label for="birthDate">Data de naixement</label>
+        <input type="date" class="form-control" id="birthDate" name="birthDate">
     </div>
     <button type="submit" class="btn btn-secondary">Calcular</button>
 </form>

@@ -34,7 +34,7 @@ class CalculBio extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('bio.result', ['userName' => $request->input('userName'), 'birthDate' => $request->input('birthDate')]);
     }
 
     /**

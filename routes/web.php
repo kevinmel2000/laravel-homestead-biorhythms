@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'CalculBio@index');
+Route::get('/store', 'CalculBio@store');
