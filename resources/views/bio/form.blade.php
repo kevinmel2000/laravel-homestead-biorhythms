@@ -34,7 +34,7 @@
         <label for="birthDate">Data de naixement</label>
         <input type="date" class="form-control" id="birthDate" name="birthDate">
     </div>
-    <button type="submit" class="btn btn-secondary">Calcular</button>
+    <button type="submit" class="btn btn-outline-primary">Calcula el teu biorritme</button>
 </form>
 
 @endsection

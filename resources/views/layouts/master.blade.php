@@ -16,25 +16,26 @@
 
     <title>@yield('titlePage')</title>
   </head>
-  <body>
+  <body style="background-color: #0F2B59;">
 
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">Home</a>
+    <nav class="navbar navbar-light" style="background-color: #15428B;">
+        <a class="navbar-brand" style="color: white;" href="/">Pàgina principal</a>
     </nav>
 
     <br/>
 
-    <div class="container">
+    <div class="container" style="color: white;">
         @yield('header')
-        
-        <div class="container">
-            @yield('content')
-        </div>
-
-        <div class="container">
-            @yield('footer')
-        </div>
     </div>
+      
+    <div class="container" style="color: white;">
+        @yield('content')
+    </div>
+
+    <div class="container" style="color: white;">
+        @yield('footer')
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
